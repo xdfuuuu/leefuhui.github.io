@@ -7,100 +7,175 @@
 		
 		<!-- Bootstrap CSS -->
 		<link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet" />
-		<link rel="stylesheet" href="assets/css/main2.css" />
+		<link rel="stylesheet" href="assets/css/main3.css" />
 		
 		
 	</head>
 	<body class="is-preload">
+				<!-- Background images with alternating slide directions -->
+		<div class="background-image right slide-right" data-project="analytics">
+			<img src="images\Analytics\key image.png" alt="Analytics">
+		</div>
+		<div class="background-image left slide-left" data-project="analytics">
+			<img src="images\Analytics\cards bg.png" alt="Analytics">
+		</div>
+		<div class="background-image right slide-right" data-project="superapp">
+			<img src="images\Superapp\ipad ver.png" alt="Super-App">
+		</div>
+		<div class="background-image left slide-left" data-project="superapp">
+			<img src="images\Superapp\wireframe background.png" alt="Super-App">
+		</div>
+		<div class="background-image right slide-right" data-project="transactions">
+			<img src="images\Transactions\key image.png" alt="Transactions">
+		</div>
+		<div class="background-image left slide-left" data-project="transactions">
+			<img src="images\Transactions\bg.png" alt="Transactions">
+		</div>
+		<div class="background-image right slide-right" data-project="3q">
+			<img src="images\3q\another mood.png" alt="3Q">
+		</div>
+		<div class="background-image left slide-left" data-project="3q">
+			<img src="images\3q\3q bg.png" alt="3Q">
+		</div>
+		<div class="overlay"></div>		
 
-		<nav id="navbar">
-			<ul>
-			  <li style="color:grey">Home</li>
-			  
-			  <li><a class="nav-link" href="https://drive.google.com/file/d/1fxU78jdrm_0d7uh6B0GxRNRiYuhbIbqo/view?usp=sharing">Resume</a></li>
-			  </ul>
-		  </nav>
 
-		<!-- Header -->
-		<header id="header" class="p-0">
+		 <!-- Content wrapper -->
+    	<div class="content-wrapper">
+			<nav id="navbar">
+				<ul>
+				<li><span style="color:grey">home</span></li>
+				
+				<li><a class="nav-link" href="https://drive.google.com/file/d/1fxU78jdrm_0d7uh6B0GxRNRiYuhbIbqo/view?usp=sharing">resume</a></li>
+				</ul>
+			</nav>
+			
+			<!-- Header -->
+			<header id="header" class="p-0">
 				<div class="container">
-					<div class="d-flex flex-column align-items-start">
-						
+					<div class="default-content d-flex flex-column">
+							
 						<h1><strong>Fu Hui</strong></h1>
-						
-						<p>I'm a UX Designer with a foundation in architecture. I create spaces in both the digital and physical worlds.</p>
-						<p>By drawing from various disciplines, I craft <strong>data-driven</strong> solutions that are elegant and <strong>user-centered</strong>.</p>
-					</div>
-				</div>
-			</header>
-		
-		
-	<!-- Main -->
-	<div id="main" class="container-fluid">
-		<section >
 			
-				<div class="works ">
-					<a href="analytics.html" class="project tilt ">
-						<img src="images/Analytics/analytics.png" alt="Analytics" class="image fit w-100"/>
-						<div id="project-title">
-							<h2>Analytics</h2>
-							<h4>Dashboard for fleet management of autonomous cleaning robots</h4><br>
-							<p class="no-m">Lead UX Designer</p>
-							<p class="no-m">Web Design</p>
-						</div>
-					</a>
+						<p>I'm a UX Designer with a foundation in architecture.<br> I create spaces in both the digital and physical worlds.</p>
+						<!-- <p>By drawing from various disciplines, <br>I craft data-driven solutions that are elegant and user-centered.</p> -->
+					</div></div>
+				
 
-					<a href="superapp.html" class="project tilt ">
-						<img src="images/Superapp/superapp.png" alt="Super-App" class="image fit w-100"/>
-						<div id="project-title">
-							<h2>Super-App</h2>
-							<h4>All-in-one platform for home design</h4><br>
-							<p class="no-m">Lead UX Designer</p>
-							<p class="no-m">App Design</p>
-						</div>
-					</a>
-					
-					<a href="transactions.html" class="project tilt">
-						<img src="images\Transactions\transactions.png" alt="Transactions" class="image fit w-100" />
-						<div id="project-title">
-							<h2>Transactions</h2>
-							<h4>Transactions management module in an admin portal</h4><br>
-							<p class="no-m">Lead UX Designer</p>
-							<p class="no-m">Web Design</p>
-						</div>
-					</a>
+			<!-- Project headers (hidden by default) -->
+			<div class="project-header" data-project="analytics">
+				<h2>Analytics</h2>
+				<p>Fleet management dashboard of autonomous cleaning robots</p>
+				<div class="project-meta">
+					<p>Lead UX Designer</p>
+					<p>Web Design</p>
+				</div>
+			</div>
+
+			<div class="project-header" data-project="superapp">
+				<h2>Super-App</h2>
+				<p>All-in-one platform for home design</p>
+				<div class="project-meta">
+					<p>Lead UX Designer</p>
+					<p>App Design</p>
+				</div>
+			</div>
+
+			<div class="project-header" data-project="transactions">
+				<h2>Transactions</h2>
+				<p>Transactions management module in an admin portal</p>
+				<div class="project-meta">
+					<p>Lead UX Designer</p>
+					<p>Web Design</p>
+				</div>
+			</div>
+
+			<div class="project-header" data-project="3q">
+				<h2>3Q</h2>
+				<p>Building materials and supplier comparator</p>
+				<div class="project-meta">
+					<p>Personal Project</p>
+					<p>Web Design</p>
+				</div>
+			</div>
+			</header>	
+			
 	
-					<a href="3q.html" class="project tilt ">
-						<img src="images\3q\3q.png" alt="3Q" class="image fit w-100"/>
-						<div id="project-title">
-							<h2>3Q</h2>
-							<h4>Building materials and supplier comparator</h4><br>
-							<p class="no-m">Personal Project</p>
-							<p class="no-m">Web Design</p>
-						</div>
-					</a>
-				</div>
-			
-		</section>
-	</div>
 
+			<!-- Main -->
+			 <div id="main">
+            <section>
+                <div class="works">
+                    <a href="analytics.html" class="project" data-project="analytics">
+                        <img src="images/Analytics/analytics.png" alt="Analytics" />
+                        <div id="project-title">
+                            <h3>Analytics</h3>
+                            <h4>Dashboard for fleet management of autonomous cleaning robots</h4>
+                            <div class="project-meta">
+                                <p>Lead UX Designer</p>
+                                <p>Web Design</p>
+                            </div>
+                        </div>
+                    </a>
 
+                    <a href="superapp.html" class="project" data-project="superapp">
+                        <img src="images/Superapp/superapp.png" alt="Super-App" />
+                        <div id="project-title">
+                            <h3>Super-App</h3>
+                            <h4>All-in-one platform for home design</h4>
+                            <div class="project-meta">
+                                <p>Lead UX Designer</p>
+                                <p>App Design</p>
+                            </div>
+                        </div>
+                    </a>
 
-		<!-- Footer -->
-	<footer id="footer">
+                    <a href="transactions.html" class="project" data-project="transactions">
+                        <img src="images/Transactions/transactions.png" alt="Transactions" />
+                        <div id="project-title">
+                            <h3>Transactions</h3>
+                            <h4>Transactions management module in an admin portal</h4>
+                            <div class="project-meta">
+                                <p>Lead UX Designer</p>
+                                <p>Web Design</p>
+                            </div>
+                        </div>
+                    </a>
+
+                    <a href="3q.html" class="project" data-project="3q">
+                        <img src="images/3q/3q.png" alt="3Q" />
+                        <div id="project-title">
+                            <h3>3Q</h3>
+                            <h4>Building materials and supplier comparator</h4>
+                            <div class="project-meta">
+                                <p>Personal Project</p>
+                                <p>Web Design</p>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+            </section>
+        </div>
+
+			<!-- Footer -->
+			<footer>
 				<div class="row  align-items-center">
-					<div class="col-md-8">
+					
+					<div class="col">
+						<p>senior ux designer | 5 years experience</p>
+					</div>
+					<div class="col">
 						<ul class="icons">
 							<li><a href="https://www.linkedin.com/in/leefuhui/" class="icon brands fa-linkedin"><span class="label">LinkedIn</span></a></li>
 							<li><a href="mailto: lee.fuhui@gmail.com" class="icon fa-envelope"><span class="label">Email</span></a></li>
 						</ul>
 					</div>
-					<div class="col-md-4">
-						<p>works 2019 - 2024 | Site built with html/css/js</p>
-					</div>
 				</div>
-	</footer>
+		</footer>
+		</div>	
 
+
+	
 		<!-- Scripts -->
 			<script src="assets/js/jquery.min.js"></script>
 			<script src="assets/js/jquery.poptrox.min.js"></script>
@@ -108,8 +183,79 @@
 			<script src="assets/js/breakpoints.min.js"></script>
 			<script src="assets/js/util.js"></script>
 			<script src="assets/js/main.js"></script>
-			<script src="assets\js\scroll.js" ></script>
-			<script src="assets/js/tilt.js" ></script>
+			
+		
+			<script>
+			// Only enable hover effect on desktop (non-touch devices)
+			function initHoverEffects() {
+			const projects = document.querySelectorAll('.project');
+			const backgrounds = document.querySelectorAll('.background-image');
+			const overlay = document.querySelector('.overlay');
+			const defaultContent = document.querySelector('#header .default-content');
+			const projectHeaders = document.querySelectorAll('#header .project-header');
+
+    // Remove any existing listeners by cloning and replacing elements
+    projects.forEach((project, index) => {
+        const clone = project.cloneNode(true);
+        project.parentNode.replaceChild(clone, project);
+    });
+
+    // Only add hover listeners on desktop
+    if (window.matchMedia("(min-width: 981px)").matches) {
+        document.querySelectorAll('.project').forEach(project => {
+            project.addEventListener('mouseenter', function() {
+                const projectName = this.getAttribute('data-project');
+                
+                // Hide default header content
+                defaultContent.classList.add('hide');
+                
+                // Show matching project header
+                projectHeaders.forEach(header => {
+                    if (header.getAttribute('data-project') === projectName) {
+                        header.classList.add('show');
+                    }
+                });
+                
+                // Show ALL background images for this project
+                backgrounds.forEach(bg => {
+                    if (bg.getAttribute('data-project') === projectName) {
+                        bg.classList.add('active');
+                    }
+                });
+                
+                // Show overlay
+                overlay.classList.add('active');
+            });
+
+            project.addEventListener('mouseleave', function() {
+                // Show default header content
+                defaultContent.classList.remove('hide');
+                
+                // Hide all project headers
+                projectHeaders.forEach(header => {
+                    header.classList.remove('show');
+                });
+                
+                // Remove all backgrounds
+                backgrounds.forEach(bg => bg.classList.remove('active'));
+                overlay.classList.remove('active');
+            });
+        });
+    }
+}
+
+		// Initialize on load
+		initHoverEffects();
+
+		// Re-initialize on window resize with debounce
+		let resizeTimer;
+		window.addEventListener('resize', function() {
+			clearTimeout(resizeTimer);
+			resizeTimer = setTimeout(function() {
+				initHoverEffects();
+			}, 250);
+		});
+		</script>
 
 	</body>
 </html>
